@@ -1,0 +1,47 @@
+body{
+  font-size: 14px;
+  font-family: verdana, sans-serif;
+  box-shadow: 6px 6px 5px #888;
+  margin: 50px, 20px;
+  
+}
+#section1{
+  padding: 50px 50px;
+  margin: 20px 100px;
+}
+#section1 label{
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+  padding: 5px 0px 15px 10px;
+}
+#section1 input{
+  box-shadow: 2px 2px 5px grey;
+  z-index: 100;
+}
+#section2 label{
+  font-weight: normal;
+  display: inline-block;
+  width: 200px;
+  padding: 5px 0px 15px 10px;
+}
+#lieu{
+  border-radius: 5px 20px;
+}
+#section3{
+  background-color: cadetblue;
+  color: crimson;
+}
+#section3 label{
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  padding: 5px 0px 15px 10px;
+}
+legend{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+#titre1{
+  color: crimson;  
+}

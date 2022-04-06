@@ -1,0 +1,22 @@
+.div{
+  margin: 50px 50px;
+  box-shadow: 6px 6px grey;
+}
+td{
+  border-style: ridge;
+  text-align: center;
+
+}
+table{
+  border-collapse: collapse;
+  width: 400px;
+}
+input[type="submit"]{
+  font-weight: bold;
+  margin-left: 300px;
+  background-color: darkseagreen;
+  box-shadow: 4px 4px 5px;
+}
+span{
+  text-decoration: underline;
+}

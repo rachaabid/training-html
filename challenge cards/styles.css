@@ -1,0 +1,70 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  background-color: #fff;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+}
+h1 span{
+  margin-top: 20px;
+  border: 4px dashed #2a2a31;
+  border-radius: 10%;
+  padding: 10px;
+}
+.card1, .card2{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  display: inline-block;
+  width: 400px;
+  height: 270px;
+  margin-top: 20px;
+}
+.card1{
+  margin-right: 35px;
+  margin-left: 210px;
+}
+.card2{
+  margin-left: 35px;
+  margin-right: 210px;
+}
+.container1, .container2{
+  padding: 2px 16px;
+  height: 100px;
+}
+img{
+  width: 400px;
+  height: 150px;
+  margin: auto;
+}
+form{
+  text-align: center;
+}
+input{
+  width: 500px;
+  height: 25px;
+  margin-top: 5px;
+  background-color: rgb(206, 203, 203);
+  border-color: white;
+  border-radius: 5px;
+}
+#msg{
+  width: 500px;
+  height: 60px;
+  margin-top: 5px;
+  background-color: rgb(206, 203, 203);
+  border-radius: 5px; 
+  border-color: white;
+}
+#submit{
+  text-align: center;
+  border-radius: 5px;
+  background-color: grey;
+  border-color: white;
+  color: #fff;
+  height: 30px;
+  margin-top: 5px;
+}

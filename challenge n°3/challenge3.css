@@ -1,0 +1,24 @@
+h1, h2{
+  color: red;
+  text-align: center;
+}
+#p1, #p2{
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: grey;
+  color: white;
+  text-align: left;
+  padding: 15px;
+}
+
+.blocktext{
+  border-radius: 10px 10px;
+  color: white;
+  text-decoration: underline;
+  border: 2px solid black;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 10px;
+}

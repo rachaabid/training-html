@@ -1,0 +1,104 @@
+body{
+  font-family: inherit;
+  background-color: #f5f6f7;
+  margin: 0px;
+  padding: 0px;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+}
+
+.right{
+  height: 456px;
+  width: 396px;
+  text-align: center;
+}
+
+h2{
+  color: #1c1e21;
+  font-family: helvetica, Arial, sans-serif;
+  font-size: 22px;
+  width: 500px;
+}
+.left, .right{
+  display:inline-block;
+  width: 30%;
+  margin: 100px 100px;
+}
+#div1{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+#mt, #pass{
+  width: 320px;
+  padding: 14px 16px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  border: 1px solid #f5f6f7;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+#login{
+  width: 350px;
+  padding: 10px 16px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1877f2;
+  border-radius: 5px;
+  border: 1px solid #f5f6f7;
+  cursor: pointer;
+}
+#div1 a{
+  color: #1877f2;
+  font-size: 14px;
+  text-align: center;
+}
+#div2 a{
+  color: black; 
+}
+#account{
+  width: 200px;
+  padding: 10px 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #42b72a;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #f5f6f7;
+  cursor: pointer;
+}
+#div2{
+  color: black;
+  font-family:  helvetica, Arial, sans-serif;
+  font-size: 14px;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 800px) {
+  .all{
+    flex-direction: column;
+  }
+  
+  #div2{
+  position: relative;
+  display: flex;
+    left: 80px;
+  }
+  
+}

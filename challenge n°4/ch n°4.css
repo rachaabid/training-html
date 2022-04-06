@@ -1,0 +1,51 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+table{
+  width: 1000px;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+div{
+  background-color: red;
+}
+span{
+  background-color: black;
+  border-bottom: 2px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+p{
+  text-transform: lowercase;
+  text-align: right;
+  margin-right: 200px;
+  
+}
+#prix{
+  width: 130px;
+}
+tr{
+  height: 25px;
+}
+#L1{
+
+}
+#L2{
+  
+}
+#L3{
+  
+}
+#L4{
+  
+}
+#L5{
+  
+}
+

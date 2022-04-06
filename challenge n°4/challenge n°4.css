@@ -1,0 +1,128 @@
+.div01{
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  width: 200px;
+  height: 30px;
+}
+.div02{
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 200px;
+  height: 30px;
+}
+.div1{
+  width: 700px;
+  margin: 0px auto;
+  background-color: rgba(6, 6, 7, 0.911);
+  position: relative;
+}
+h2{
+  font-family: "Century-Gothic", verdana, sans-serif;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+}
+.p1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  left: 100px;
+}
+.p2{
+  font-family: oblique;
+  text-indent: 280px;
+  text-align-last: right;
+}
+.p1, .p2{
+  display: inline-block;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+h2, p{
+  line-height: 0px;
+}
+.p3{
+  font-family: "Century-Gothic", sans-serif, calibri;
+ font-weight: normal;
+} 
+li{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.div2{
+  margin: 0px auto;
+  width: 700px;
+  background-color: rgba(6, 6, 7, 0.911);
+  position: relative;
+}
+.div11{
+  position: absolute;
+  right: 0px;
+  width: 280px;
+  height: 30px;
+}
+.div12{
+  position: absolute;
+  left: 0px;
+  width: 280px;
+  height: 30px;
+}
+.p4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  left: 100px;
+}
+.p5{
+  font-family: oblique;
+  text-indent: 420px;
+  text-align-last: right;
+}
+.p4, .p5{
+  display: inline-block;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.div3{
+  margin: 0px auto;
+  width: 700px;
+  background-color: rgba(6, 6, 7, 0.911);
+  position: relative;
+}
+.div21{
+  position: absolute;
+  right: 0px;
+  width: 270px;
+  height: 30px;
+}
+.div22{
+  position: absolute;
+  left: 0px;
+  width: 270px;
+  height: 30px;
+}
+.div1, .div2, .div3{
+  column-span: all;
+}
+.p6{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  left: 100px;
+}
+.p7{
+  font-family: oblique;
+  text-indent: 450px;
+  text-align-last: right;
+}
+.p6, .p7{
+  display: inline-block;
+  font-size: small;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}

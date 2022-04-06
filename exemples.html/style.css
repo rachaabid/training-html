@@ -1,0 +1,14 @@
+.div1{
+  float: left;
+  width: 400px;
+  height: 400px;
+  background: -webkit-linear-gradient(left, blue, purple, red);
+  background: linear-gradient(to right, blue, purple, red);
+}
+.div2{
+  float: right;
+  width: 400px;
+  height: 400px;
+  background: -webkit-radial-gradient(circle, blue, purple, red);
+  background: radial-gradient(circle, blue, purple, red);
+}

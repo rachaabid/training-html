@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>challenge5</title>
+  <link rel="stylesheet" href="style formulaire.css">
+</head>
+
+<body>
+  <form method="post" action="traitement.php">
+    <label for="nom">Nom:</label>
+    <input type="texte" name="nom" id="nom"><br>
+
+    <label for="prénom">Prénom:</label>
+    <input type="texte" name="prénom" id="prénom"><br>
+
+    <label for="comment">Commentaire</label><br>
+    <textarea id="commentaire" name="commentaire" rows="10" cols="50" placeholder="Tapper votre commentaire ici ...."></textarea><br>
+
+    Date de naissance
+    <select name="jour">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3" selected>3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+    </select>
+    <select name="mois">
+      <option value="janvier">Janvier</option>
+      <option value="février">Février</option>
+      <option value="mars">Mars</option>
+      <option value="avril">Avril</option>
+      <option value="mai">Mai</option>
+      <option value="juin">Juin</option>
+      <option value="juillet">Juillet</option>
+      <option value="aout">Aout</option>
+      <option value="septembre">Septembre</option>
+      <option value="octobre">Octobre</option>
+      <option value="novembre">Novembre</option>
+      <option value="decembre">Decembre</option>
+    </select>
+    <select id="année" name="year">
+      <option value="1900">1900</option>
+      <option value="1901">1901</option>
+      <option value="1902">1902</option>
+      <option value="1903">1903</option>
+      <option value="1904">1904</option>
+      <option value="1905">1905</option>
+
+    </select><br>
+
+    <input type="radio" id="femme" name="sexe" value="femme">
+    <label for="femme">Femme</label>
+    <input type="radio" id="homme" name="sexe" value="homme">
+    <label for="homme">Homme</label><br>
+
+    <input type="checkbox" id="HTML" name="HTML" value="HTML">
+    <label for="HTML">HTML</label>
+    <input type="checkbox" id="CSS" name="CSS" value="CSS">
+    <label for="CSS">CSS</label>
+    <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+    <label for="JavaScript">JavaScript</label><br>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email" placeholder="tapper votre email"><br>
+
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="pass"><br>
+
+    <label for="naissance">Date de naissance</label>
+    <input type="date" id="naissance" name="naissance"><br>
+
+    <label for="photo">Photo de profil</label>
+    <input type="file" id="fichier" name="fichier"><br>
+
+    <label for="num">Nombre d'enfant</label>
+    <input type="number" id="nombre" name="nombre" min="0"><br>
+
+    <label for="color">Couleur</label>
+    <input type="color" id="couleur" name="couleur"><br>
+
+    <label for="date">Date</label>
+    <input type="datetime-local" id="date" name="date"><br>
+
+    <input type="submit" value="Envoyer">
+    <input type="reset" value="Vider les champs">
+
+  </form>
+</body>
+
+</html>

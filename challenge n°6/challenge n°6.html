@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>formulaire</title>
+</head>
+<body>
+  <form>
+     <fieldset id="section1">
+        <legend id="titre">vos données personnelles</legend>
+          <label for="nom">Nom</label>
+          <input type="text" name="nom" id="nom"><br>
+
+          <label for="prénom">Prénom</label>
+          <input type="text" name="prénom" id="prénom"><br>
+
+          <label for="naissance">Date de naissance</label>
+          <input type="date" name="naissance" id="naissance"><br>
+
+          <fieldset id="section2">
+             <legend id="titre">lieu de naissance</legend>
+             <input type="radio" name="lieu" id="lieu">
+             <label for="lieu">Seine-Saint-Denis</label>
+             <input type="radio" name="lieu" id="lieu">
+             <label for="lieu">Reste du monde</label>
+          </fieldset><br>
+
+          <label for="adresse">Adresse postale</label>
+          <input type="text" name="adresse postale" id="adresse postale" placeholder="Votre adresse"><br>
+
+         <label for="code">Code postal</label>
+         <input type="number" name="code" id="code"><br>
+
+         <label for="email">Adresse électronique</label>
+         <input type="email" name="mail" id="mail"><br>
+
+         <label for="page">Page personnelle</label>
+         <input type="url" name="page" id="page"><br>
+
+         <label for="tel">Téléphone portable</label>
+         <input type="tel" name="tél" id="tél"><br><br>
+
+         <fieldset id="section3">
+           <legend id="titre1">connaissances</legend>
+           <input type="checkbox" name="html" id="html">
+           <label for="html">HTML</label>
+           <input type="checkbox" name="css" id="css">
+           <label for="css">CSS</label>
+           <input type="checkbox" name="formulaire" id="formulaire">
+           <label for="form">formulaire</label>
+           <input type="checkbox" name="js" id="js">
+           <label for="js">JavaScript</label>
+         </fieldset><br><br>
+
+         <input type="submit" value="envoyer">
+      </fieldset><br> 
+</form>
+</body>
+</html>
